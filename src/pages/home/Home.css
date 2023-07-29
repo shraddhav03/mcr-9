@@ -1,0 +1,27 @@
+* {
+  background-color: gainsboro;
+}
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.listing {
+  position: relative;
+  padding: -2rem;
+  width: 90%;
+  left: 150px;
+  /* margin-top: 2rem; */
+}
+.listing-heading {
+  text-transform: uppercase;
+}
+.list {
+  list-style-type: none;
+}
+/* .category {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+} */
